@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>main page</title>
+    <style>
+      table {
+        height: 30%;
+      }
+      th {
+        height: 20px;
+      }
+    </style>
+  </head>
+  <body background="emppic.jpg">
+    <center>
+      <form action="employee.php" method="POST">
+        <table>
+          <tr><h3 align="center">Employee registration form</h3></tr>
+          <tr>
+            <th>Employee ID:</th>
+            <td><input type="text" name="empid" /></td>
+          </tr>
+
+          <tr>
+            <th>Employee name:</th>
+            <td><input type="text" name="empname" /></td>
+          </tr>
+          <tr>
+            <th>Job Name:</th>
+            <td><input type="text" name="jobname" /></td>
+          </tr>
+          <tr>
+            <th>Manager ID:</th>
+            <td><input type="text" name="managerid" /></td>
+          </tr>
+          <tr>
+            <th>Salary:</th>
+            <td><input type="text" name="salary" /></td>
+          </tr>
+          <tr>
+            <td align="center" colspan="2">
+              <input type="submit" name="submit" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>
